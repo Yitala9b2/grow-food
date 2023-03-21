@@ -1,0 +1,14 @@
+{
+  "name": "js-ip",
+  "version": "1.0.0",
+  "description": "Учебный проект",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Виталий",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.2"
+  }
+}
