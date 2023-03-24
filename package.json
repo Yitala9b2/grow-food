@@ -1,14 +1,26 @@
 {
-  "name": "js-ip",
-  "version": "1.0.0",
-  "description": "Учебный проект",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Виталий",
-  "license": "ISC",
-  "devDependencies": {
-    "json-server": "^0.17.2"
-  }
+    "name": "js-ip",
+    "version": "1.0.0",
+    "description": "Учебный проект",
+    "main": "script.js",
+    "scripts": {
+        "lint": "eslint ./js.js ",
+        "lint:fix": "eslint ./js--fix"
+    },
+    "keywords": [],
+    "author": "Виталий",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.36.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-html": "^7.1.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-webpack-plugin": "^4.0.0",
+        "json-server": "^0.17.2",
+        "prettier": "^2.8.6",
+        "webpack": "^5.76.3",
+        "webpack-cli": "^5.0.1"
+    }
 }

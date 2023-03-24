@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node":true
+    },
+    "ignorePatterns": ["bundle.js"],
+    "extends":["airbnb/base"],
+    "rules":{
+        "semi":"warn",
+        "indent":["error", 4],
+        "no-unused-vars":"off",
+        "no-plusplus":"off",
+        "eol-last":"off",
+        "max-len":"off",
+        "no-unused-expressions":"warn",
+        "prefer-destructuring":"warn",
+        "no-mixed-operators":"off",
+        "linebreak-style": [0 ,"error", "windows"],
+        "no-multiple-empty-lines":"off",
+        "max-classes-per-file":"off"
+    }
+}

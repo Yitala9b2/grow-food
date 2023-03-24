@@ -118,6 +118,7 @@ a {
     left: 60px;
     top: 240px;
     height: 400px;
+    z-index: 20;
     width: 25px;
     display: flex;
     flex-direction: column;
