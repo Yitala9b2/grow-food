@@ -10,7 +10,15 @@
     "keywords": [],
     "author": "Виталий",
     "license": "ISC",
+    "browserslist": [
+        "> 0.5%"
+    ],
     "devDependencies": {
+        "@babel/cli": "^7.21.0",
+        "@babel/core": "^7.21.3",
+        "@babel/preset-env": "^7.20.2",
+        "babel-loader": "^9.1.2",
+        "core-js": "^3.29.1",
         "eslint": "^8.36.0",
         "eslint-config-airbnb": "^19.0.4",
         "eslint-config-prettier": "^8.8.0",

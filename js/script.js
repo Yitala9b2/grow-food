@@ -1,3 +1,5 @@
+import "core-js/stable";
+import { mult, sum } from './modules/calcul';
 // табы
 import tabs from './modules/tabs';
 
@@ -21,6 +23,9 @@ import slider from './modules/slider';
 import calc from './modules/calc';
 
 import { openModal } from './modules/modal';
+
+console.log(mult(3, 4));
+console.log(sum(3, 4));
 
 window.addEventListener('DOMContentLoaded', () => {
     const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000); // показать модалку через 50сек
